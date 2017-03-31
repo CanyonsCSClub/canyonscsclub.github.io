@@ -28,6 +28,7 @@ li	{
 
 a	{
 	text-decoration: none;
+	outline: none;
 }
 
 a:link, a:visited	{
@@ -39,7 +40,13 @@ a:hover	{
 }
 
 #wrapper	{
-
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	background-color: #FFFFCC;
 }
 
 #cscheader	{
@@ -66,7 +73,6 @@ a:hover	{
 #cscfooter	{
 	text-align: center;
 	font-size: 0.8em;
-	float: none;
 }
 
 .hide	{
