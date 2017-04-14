@@ -1,61 +1,229 @@
-<!doctype html>
-<html lang="en">
-<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
-<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
-<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
-<head>
-	<meta charset="utf-8">
-	<meta name="description" content="College of the Canyons Computer Science home page">
-	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="html css javascript php java c# games">
-	<title>Canyons Computer Science Club</title>
-	<link href="css/reset.css" rel="stylesheet" type="text/css">
-	<link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet" type="text/css">
-	<link href="css/coccsc.css" rel="stylesheet" type="text/css">
-	<link href="css/ie.css" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>MockUp</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
 
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-	<![endif]-->
-</head>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-<body>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <style type="text/css">
+            body{
+                background-color: rgb(255, 251, 249);
+                max-height: 100%;
+            }
+            html{
+                height:100%;
+            }
+			.back-link a {
+				color: #4ca340;
+				text-decoration: none; 
+				border-bottom: 1px #4ca340 solid;
+			}
+			.back-link a:hover,
+			.back-link a:focus {
+				color: #408536; 
+				text-decoration: none;
+				border-bottom: 1px #408536 solid;
+			}
+			h1 {
+				height: 100%;
+				/* The html and body elements cannot have any padding or margin. */
+				margin: 0;
+				font-size: 14px;
+                font-family: Century Gothic, sans-serif;
+				color: #1c1d1e;
+				font-size: 32px;
+				margin-bottom: 3px;
+			}
+			h2 {
+				color: #1c1d1e;
+                font-family: Century Gothic, sans-serif;
+				font-weight: normal;
+			}
+            h3{
+                color:crimson;
+                font-family: Century Gothic, sans-serif;
+            }
+			.entry-header .inner {
+				text-align: left;
+				margin: 0 auto 20px auto;
+				width: 800px;
+			}
+			.entry-header { 
+                padding-top: 7px;
+                background-color: #fffbf9; 
+                width:100%;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 999999;
+            }
+            .logo{
+                text-align:left;
+                font-family: Century Gothic, sans-serif;
+                font-weight: 300;
+                color:crimson;
+            }
+           .btn {
+               padding-left:95%;
+               background: #CCC; 
+               color: #FFF;
+               display: inline-block;
+               border-radius: 4px;
+               box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+               font-family: Arial, sans-serif;
+               line-height: 2.5em;
+               padding: 0 3em;
+               text-decoration: none; 
+               background-color:firebrick;
+            }
+            .btn:hover { 
+            box-shadow: inset 0 1px 1px rgba(255,255,255,0.2), 
+            inset 0 1.5em 1em rgba(255,255,255,0.3);
+            }
 
-	<div id='wrapper' class='fluid'>
-
-		<header id='cscheader'>
-			<h1>Canyons Computer Science Club</h1>
+            .btn:active { 
+            box-shadow: inset 0 1px 1px rgba(255,255,255,0.2), 
+            inset 0 1.5em 1em;
+            }
+            #slide-6{
+                background-color: ghostwhite;
+                background: ghostwhite;
+            }
+            form input{
+                margin:10px;
+            }
+            
+            #submit{
+                color: ghostwhite;
+                border-radius: 2px;
+                background-color: crimson;
+                border:1px;
+                border-color: black;
+            }
+		</style>
+    </head>
+    <body class="loading">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+       	
+       	<header class="entry-header">
+        	<div class="inner">
+                <h1 class='logo'>Canyons CS Club</h1>
+                <br>
+                <a class='btn' href="#home">Home</a>
+                <a class='btn' href="#about">About</a>
+                <a class='btn' href="#portfolio">Projects</a>
+                <a class='btn' href="#contact">Contact</a>
+			</div>
 		</header>
-
-		<nav id='cscmainnav' class='group'>
-			<ul>
-				<li><a href='index.html'> Home </a></li>
-				<li><a href='projects.html'> Projects under construction </a></li>
-				<li><a href='aboutus.html'> About Us </a></li>
-				<li><a href='contact.html'> Contact Us </a></li>
-			</ul>
-		</nav>
-		
-		<main id='main'>
+       	
+       	<main>
+       	 
+	        <section id="slide-1" class="homeSlide">
+	        	<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
+		        	<div class="hsContainer">
+			    		<div class="hsContent" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-1 h2" id='home'>
+				    		<h2 style='color:white'>Site Hero Or Something<br/></h2>
+				    		<p style='color:white'>Get the users attention</p>
+			    		</div>
+		        	</div>
+	        	</div>
+		    </section>
+		    
+		    <section id="slide-2">
+		    	<div class="bcg" data-0="background-color:rgb(0,0,0);" data-top="background-color:rgb(255, 251, 249);"  data-anchor-target="#slide-2">
+			    	<div class="hsContainer">
+			    		<div class="hsContent">
+				    		<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-2 h2">What We Do</h2>
+				    		<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-2 h2" style='color:white'></p>
+			    		</div>
+		        	</div>
+		    	</div>
+		    </section>
+            
+            <section id="slide-3" class="homeSlide">
+	           <div class="bcg" data-center="background-position: 0px 50%;" data-bottom-top="background-position: 0px 40%;" data-top-bottom="background-position: -40px 50%;" data-anchor-target="#slide-3">
+    	           <div class="hsContainer">
+    		          <div class="hsContent" id='about'>
+    			         <div class="plaxEl" data-106-top="opacity: 0" data-10p-top="opacity: 1;" data--60p-top="opacity: 0;" data-bottom="opacity: 1; position: fixed; top: 250px; width: 100%; left: 0;"  data-anchor-target="#slide-3">
+		    		        <h2 style='color:white'>About Us</h2>
+		    		        <p><span class="bgBlack" style='color:white'>Founded When/Where? Values? Members? Etc.</span></p>
+		    		        <p><span class="bgBlack" style='color:white'>Areas of Interest</span></p>
+	    		         </div>
+    		          </div>
+    	           </div>
+                </div>
+            </section>
+            
+            <section id="slide-4">
+		    	<div class="bcg" data-0="background-color:rgb(0,0,0);" data-top="background-color:rgb(255, 251, 249);"  data-anchor-target="#slide-4">
+			    	<div class="hsContainer">
+			    		<div class="hsContent">
+				    		<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-4 h2"></h2>
+				    		<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-4 h2" style='color:white'></p>
+			    		</div>
+		        	</div>
+		    	</div>
+		    </section>
+            
+            <section id="slide-5" class="homeSlide">
+	        	<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-5">
+		        	<div class="hsContainer">
+			    		<div class="hsContent" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-5 h2" id='portfolio'>
+				    		<h2 style='color:white'>Projects</h2>
+				    		<p style='color:white'>Links to projects here</p>
+			    		</div>
+		        	</div>
+	        	</div>
+		    </section>
+            
+            <section id="slide-6">
+		    	<div class="bcg" data-0="background-color:rgb(0,0,0);" data-top="background-color:rgb(255, 251, 249);"  data-anchor-target="#slide-6">
+			    	<div class="hsContainer">
+			    		<div class="hsContent" id='contact'>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+				    		<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 1" data-anchor-target="#slide-6 h2" style='color: crimson'>Have a Question or Project Proposal? <br>Contact us.</h2>
+				    		<!--<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 1" data-anchor-target="#slide-6 h2">Email: youremailhere@email.com, Tel: 1-888-888-8888<br>(Any other forms of contact)</p><br>-->
+                            <h3 data-anchor-target='#slide-6 h2 ' data-200-bottom='opacity:0' data-center="opacity: 0" data-206-top="opacity: 1">Leave a message with us, and we'll get back to you!</h3>
+                            <form data-anchor-target="#slide-6 h2" action="" method="POST" enctype="multipart/form-data" data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 1" data-anchor-target="#slide-6 h2" style='margin-bottom:10px'>
+                                <input type="hidden" name="action" value="submit">
+                                Your name:<br>
+                                <input name="name" type="text" value="" size="30"/><br>
+                                Your email:<br>
+                                <input name="email" type="text" value="" size="30"/><br>
+                                Your message:<br>
+                                <textarea name="message" rows="7" cols="30"></textarea><br>
+                                <input id='submit' type="submit" value="Send email"/>
+                                </form>
+			    		</div>
+		        	</div>
+		    	</div>
+		    </section>
 		</main>
-		
-		<div id='secondary'>
-		</div>
-	
-		<footer id='cscfooter' class='group'>
- 			<ul>
-				<li><a href='index.html'> Home </a></li>
-				<li><a href='projects.html'> Projects under construction </a></li>
-				<li><a href='aboutus.html'> About Us </a></li>
-				<li><a href='contact.html'> Contact Us </a></li>
-			</ul>
 
-		</footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/imagesloaded.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/_main.js"></script>
 
-	</div>
-
-</body>
-
+    </body>
 </html>
