@@ -144,7 +144,8 @@
 		<div class="caption" style="top:30%;">
 			<h2 class='headline group' id='pagecontent'>Have a Question or Project Proposal?  Contact us.</h2>
 			<h3 class='headline group' id='pagecontent'>Leave a message with us, and we'll get back to you!</h3>
-
+			
+			<div style='text-align:center;margin:50%;'>
 			<form method='post' action="<?php echo $_SERVER['PHP_SELF']; ?>?whichpage=contact" id='userform' enctype='multipart/form-data' onsubmit='return validateForm();'>
 				<fieldset><label class='userlabel' for='name'>Name:</label>
 				<input class='userinput' type='text' name='name' id='name'> <span class='redstar'>*</span></fieldset>
@@ -159,6 +160,7 @@
 				<div id='formreq'><span class='redstar'>*</span> = Required Field</div></fieldset>
 
 			</form>
+			</div>
 		</div>
 	</div>
 
