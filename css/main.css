@@ -145,6 +145,14 @@ div.textbox a	{
 	transition: none;
 	text-decoration: none;
 }
+.divlinks	{
+	opacity: 0.8;
+	border-radius: 0.3125em;
+	color:  #FFFFFF;
+	background-color: #CCCCFF;
+	display: inline-block;
+	padding: 0 1.5em;
+}
 
 
 /*	==============================================================
@@ -278,7 +286,7 @@ main {
 }
 
 .caption span.border {
-	background-color: #111111;
+	background-color: transparent;
 	color: #ffffff;
 	padding: 18px;
 	font-size: 25px;
