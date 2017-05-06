@@ -88,6 +88,9 @@ textarea {
 	clear: both;
 	visibility: hidden;
 }
+ol, ul {
+	list-style: none;
+}
 
 /* ==========================================================================
    Parallax Scroll
