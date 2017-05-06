@@ -163,10 +163,10 @@ div.textbox a	{
 #userform fieldset:last-child	{
 	margin: 0.3em 0 0.5em 0.6em;
 } 
-#userform fieldset input[type='text'], input[type='email'], textarea	{
+/*#userform fieldset input[type='text'], input[type='email'], textarea	{
 	border: 0;
 	border-radius: 4px;
-}
+}*/
 @keyframes pulse	{
 	0%		{box-shadow: 0 0px 18px rgba(240, 80, 80, 0.2);	}
 	50%		{box-shadow: 0 0px 18px rgba(240, 80, 80, 0.9);	}
