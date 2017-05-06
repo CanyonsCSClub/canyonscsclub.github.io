@@ -122,7 +122,7 @@ section {
 div.textbox {
 	padding: 0.2em 0.4em;
 	margin: 0.3em;
-	border: 1px solid #CCCCCC;
+	border: 0;
 	border-radius: 4px;
 }
 
@@ -132,7 +132,8 @@ div.textbox:hover {
 }
 
 div.textbox a	{
-	padding: 0;
+	padding: 0.2em 0.7em 0 0.7em;
+	border-radius: 0.3125em;
 	margin: 0;
 	outline: 0;
 	background-color: #FFFFCC;
@@ -155,7 +156,7 @@ div.textbox a	{
 #userform fieldset	{
 	border: 0;
 	font-size: 1.15em;
-	margin: 0 0 0.4em 6em;
+	margin: 0.2em 0 0.1em 6em;
 	text-align: left;
 } 
 #userform fieldset:last-child	{
@@ -175,22 +176,30 @@ div.textbox a	{
 	animation: pulse 1.5s infinite ease-in-out;
 }
 .userlabel	{
-	padding: 0 0 3px 0;
+	padding: 0 0 3px 3px;
 	font-weight: bold;
 	color: crimson;
+	background-color: white;
 	display: block;
-	opacity: 1.0;
-
+	max-width: 12em;
+	opacity: 0.6;
+	border-radius: 0.3125em;
+	border: 0;
 }
 .userinput	{
 	margin: 0;
 	padding: 0;
 	background-color: #DDDDDD;
 	width: 50%;
+	border-radius: 0.3125em;
+	border: 0;
 }
 #formcomments	{
 	width: 60%;
 	background-color: #DDDDDD;
+	border-radius: 0.3125em;
+	border: 0;
+	margin: 0.4em 0 0 0;
 }
 #submit	{
 	color: crimson;
@@ -229,8 +238,8 @@ main {
 
 .parallax_scroll {
 	position: relative;
-	opacity: 0.70;
-	background-position: center;
+/*	opacity: 0.70;
+*/	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -280,7 +289,7 @@ h3 {
 }
 
 .responsive {
-    width: 100%;
+ 	width: 100%;
 	margin: 0.1875em 0;
 	padding: 0 0.1875em;
 	display: inline-block;
