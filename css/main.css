@@ -259,13 +259,13 @@ main {
 	width: 100%;
 }
 /* Slide 1 */
-#slide-1  {
+#home  {
     background-image: url('../img/4.jpg');
 	min-height: 100%;
 }
 
 /* Slide 2 */
-#slide-2  {
+#about  {
     background-image: url('../img/advanced_computer_science.jpg');
 	min-height: 500px;
 }

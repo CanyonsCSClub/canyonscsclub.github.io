@@ -1,12 +1,11 @@
-<!-- Programmer: Probably Chris Gomez and Gerardo Bonnet -->
+<!-- Programmer: Probably Jim and edited by Gerardo Bonnet -->
 <!DOCTYPE html>
-<html>
-	<head>
+<html><head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Canyons CS Club</title>
+        <title>COC Computer Science Club</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -83,30 +82,30 @@
 
 	<header class="entry-header">
 		<div class="inner">
-			<h1 class='logo'>Canyons CS Club</h1>
-			<a class='btn' href="#home">Home</a>
-			<a class='btn' href="#about">About</a>
-			<a class='btn' href="#portfolio">Projects</a>
-			<a class='btn' href="#userform">Contact</a>
+			<h1 class="logo">COC Computer Science Club</h1>
+			<a class="btn" href="#home">Home</a>
+			<a class="btn" href="#about">About</a>
+			<a class="btn" href="#portfolio">Projects</a>
+			<a class="btn" href="#userform">Contact</a>
 		</div>
 	</header>
    <!--Home -->    	
-	<div class="parallax_scroll" id="slide-1">
-		<div class="caption" id="home">
-			<div style="color:#dddddd;background-color:white;padding:30px 80px;">
-    			<h3 style='color:black'>College of the Canyons Computer Science Club</h3>
-    			<p style='color:black'>Come meet us Fridays, 11 AM - 1 PM, in TLC133</p>
-			</div>
-		</div>
+	<div class="parallax_scroll" id="home">
+		<div class="caption" id="club intro">
+			
+		<div style="color:#dddddd;background-color:white;padding:30px 80px;">
+    			<h3 style="color:black">College of the Canyons Computer Science Club</h3>
+    			<p style="color:black">Come meet us Fridays, 11 AM - 1 PM, in TLC133</p>
+			</div></div>
 	</div>
 
 	<div class="blackbar">
 	</div>
 	<!-- About-->
-	<div class="parallax_scroll" id="slide-2">
-		<div class="caption" id="about" style="top:25%;">
-			<div class='divlinks'>
-				<span class="border">About Us</span>
+	<div class="parallax_scroll" id="about">
+		<div class="caption" id="about us" style="top:30%;">
+			<div class="divlinks">
+				<span style="color:black" class="border">About Us</span>
 				<h3>Join our club if you're interested in:</h3>
 				<ul>
 					<li>Game Design</li>
@@ -124,9 +123,9 @@
 	</div>
 	<!--Projects-->
 	<div class="parallax_scroll" id="slide-3">
-		<div class="caption" id="portfolio" style="top:15%;">
-			<div style="color:white;padding:30px 80px;">
-   				<h1 style="color:#white;">Projects</h1>
+		<div class="caption" id="portfolio" style="top:-10%;">
+			<div style="color:white;padding:400px 80px;">
+   				<h1 style="color:white;">Projects</h1>
    				<div class="responsive">
 					<div class="textbox">
 						<a href="WebGameFall2016/index.html">
@@ -140,41 +139,19 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	<div></div></div>
 
 	<div class="blackbar">
 	</div>
 	<!-- Contact-->
 	<div class="parallax_scroll" id="slide-1" style="opacity:1;">
-		<div class="caption" style="top:30%;">
+		<div class="caption" id="userform" style="top:30%;">
 		<div style="color:red;background-color:white;padding:30px 80px;">
-			<h1 class='headline group' id='pagecontent'>Have a Questions?  Contact us!</h1>
-			<h3 class='headline group' id='pagecontent'>Leave a message with us, and we'll get back to you!</h3>
+			<h1 class="headline group" id="pagecontent">Have a Question?  Contact us!</h1>
+			<h3 class="headline group" id="pagecontent">Leave a message with us, and we'll get back to you!</h3>
 			<h1>hcgoodin@gmail.com</h1>
 			<h3>or send me a text at</h3>
 			<h1>(805) 794-5812</h1>
 		</div>
-	</div>
-	</div>
 
 	<script type="text/javascript">
-
-		function validateForm()	{
-			var retval = true;
-			var elemArray = ["name", "email"];
-			var fieldName = ["Name", "E-mail"];
-
-			for ( var i = 0; i < elemArray.length && retval == true; i++ )	{
-				if ( document.getElementById(elemArray[i]).value == "" )	{
-					alert("Please enter your " + fieldName[i]);
-					document.getElementById(elemArray[i]).focus();
-					retval = false;
-				}
-			}
-			return retval;
-		}
-
-	</script>
-
-</body>
-</html>
